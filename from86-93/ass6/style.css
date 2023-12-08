@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 50px;
+}
+
+form .input {
+  width: 320px;
+  padding: 8px;
+  /* border-style: none; */
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+form select {
+  /* background-color: blue; */
+  width: 320px;
+  padding: 8px;
+  text-align: left;
+  color: black;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+input:last-of-type {
+  background-color: #009091;
+  width: 320px;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  color: white;
+}
+
+form .results {
+  background-color: #fc560c;
+  color: white;
+  width: 250px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+
+/* 
+
+ */

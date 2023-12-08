@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <title>Learn JavaScript</title>
+   <script>
+      /* Code One will not work cuz 
+      the second and the third script code is overriding.
+      if the second and the third were not exists it can be work.*/
+      document.getElementById("el").style.color = "red";
+   </script>
+   <script>
+      /* Code Two will not work cuz the third script code is overriding
+      on the first and the second.
+      if the third code were not exists it can be work.*/
+      window.onload = function () {
+         document.getElementById("el").style.color = "red";
+      };
+   </script>
+</head>
+
+<body>
+   <h1 id="el">Page Title</h1>
+   <script>
+      /* Code Three will work cuz the third script code is overriding 
+      on the first and second, this tag position is the best practice.*/
+      document.getElementById("el").style.color = "red";
+   </script>
+</body>
+
+</html>
